@@ -5,5 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Hello-world steps
-        run: echo "welcome to Github actons workflow"
+        run: |
+          echo "this is first line"
+          echo "this is second line "
+          
 
