@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Test phase
-        run: eho "running test cases"
+        run: echo "running test cases"
   deploy:
     runs-on: ubuntu-latest
     steps:
