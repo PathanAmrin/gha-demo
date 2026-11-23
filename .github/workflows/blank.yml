@@ -2,12 +2,12 @@ name: Hello world
 on: 
   push:
     branches:
-      -main
-      -develop
-      -'release/**'
+      - main
+      - develop
+      - 'release/**'
   pull_request:
     branches:
-      -main
+      - main
       
 jobs:
   build:
