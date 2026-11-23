@@ -7,7 +7,7 @@ on:
       - 'release/**'
   pull_request:
     types:
-      -opened
+      - opened
     branches:
       - main
       
